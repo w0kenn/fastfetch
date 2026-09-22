@@ -10,9 +10,15 @@
 >This is not a standalone, for it to work properly you'll need to install:
 - [Fastfetch](https://github.com/fastfetch-cli/fastfetch)
 - [Kitty](https://sw.kovidgoyal.net/kitty/) (if you don't have a GPU based Terminal emulator, you will not be able to see the .png logos).
-- [Nerd Font](https://www.nerdfonts.com/font-downloads) of your choice (the font i'm using in the screenshot is "Hack Nerd Font".
+- [Nerd Font](https://www.nerdfonts.com/font-downloads) (without this the icons won't show) Recommendation: JetBrainsMono Nerd Font, Meslo Nerd Font or Hack Nerd Font.
 
 ### Installation guide
+
+Install fastfetch:
+| Distribution | Terminal Command |
+| ------------ | ---------------- |
+| Arch         | sudo pacman -S fastfetch |
+
 Clone the repository into `~/.local/share`:
 ```
 git clone https://github.com/w0kenn/fastfetch ~/.config/fastfetch
