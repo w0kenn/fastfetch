@@ -30,10 +30,10 @@ This config uses Nerd Font icons. Without one you'll see empty boxes.
 
 
 Clone the repository into `~/.local/share`:
-```bash
+``` bash
 git clone https://github.com/w0kenn/fastfetch ~/.config/fastfetch
 ```
 Then run it with:
-```bash
+``` bash
 fastfetch
 ```
