@@ -39,11 +39,11 @@ mkdir -p ~/.local/share/fonts
 fc-cache -fv
 ```
 
-**3. Clone the repository into `~/.config/fastfetch`:**
+**3. Clone the repository into `~/.local/share`:**
 ```
-git clone https://github.com/w0kenn/fastfetch ~/.config/fastfetch
+git clone https://github.com/w0kenn/fastfetch ~/.local/share/fastfetch   
 ```
-Then run it with:
+Then run the theme you like the most: (for now there is only one, but in the future i will keep adding variety)
 ```
-fastfetch
+fastfetch --config main   
 ```

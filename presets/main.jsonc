@@ -5,15 +5,14 @@
 //  \     \/  _  \/     / \    \___/    /|           \  |      ______| |     |\       |
 //   \       / \       /   \           / |     |\     \ |             ||     | \      |
 //    \_____/   \_____/     \_________/  |_____| \_____\|_____________||_____|  \_____|
-//                                                                                      
+//  .config: main.jsonc                                                                                    
 //  .by w0keN                                                                           
-//
-// --------------------------------------------------------------------------------------
+// -------------------------------------------------------------------------------------
 
 {
     "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
     "logo": {
-        "source": "~/.config/fastfetch/logo/aisaka.png",
+        "source": "~/.local/share/fastfetch/logo/aisaka.png",
         "type": "kitty-direct",
 	"width": 30,
         "padding": {
