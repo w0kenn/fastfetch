@@ -1,0 +1,147 @@
+//  ______         ______    _________    _____   ______ _____________  _____    _____ 
+// |     |         |     |  /         \  |     | /     /|             ||     \  |     |
+// |     |   ___   |     | /    ___    \ |     |/     / |      _______||      \ |     |
+// \     \  /   \  /     //    /   \    \|           /  |            | |       \|     |
+//  \     \/  _  \/     / \    \___/    /|           \  |      ______| |     |\       |
+//   \       / \       /   \           / |     |\     \ |             ||     | \      |
+//    \_____/   \_____/     \_________/  |_____| \_____\|_____________||_____|  \_____|
+//                                                                                      
+//  .by w0keN                                                                           
+//
+// --------------------------------------------------------------------------------------
+
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
+    "logo": {
+        "source": "~/.config/fastfetch/logo/aisaka.png",
+        "type": "kitty-direct",
+	"width": 30,
+        "padding": {
+            "top": 1,
+	    "left": 3,
+	    "right": 3
+        }   
+    },
+    "display": {
+        "key": {
+            
+        },
+        "separator": "  ",
+    }, 
+    "modules": [
+	"break",
+        {
+	    "key": "┌─{#cyan}󰀓",
+	    "type": "title",
+	    "keyColor": "39"
+	},
+        {
+            "type": "custom",
+            "format": "├─{#blue}DISTRO{#white}─────────────────────────────────────────────┐",
+            "outputColor": "39"
+        },          
+        {
+            "key": "{#white}├─{#blue}󰣇",
+            "type": "os",
+            "keyColor": "39",
+	    "outputColor": "39"
+        },
+        {
+            "key": "{#white}├─{#blue}",
+            "type": "kernel",
+            "keyColor": "39"
+        },
+        {
+	    "key": "{#white}├─{#blue}",
+            "type": "packages",
+            "keyColor": "39"
+        },
+        {
+            "key": "{#white}├─{#blue}🗓",
+            "type": "disk",
+            "folders": "/",
+            "format": "{days} Days",
+            "keyColor": "39"
+        },
+        {
+	    "key": "{#white}├─{#blue}",
+            "type": "shell",
+            "keyColor": "39"
+        },
+	{
+	    "type": "custom",
+	    "format": "├─{#green}DE/WM{#white}──────────────────────────────────────────────┤",
+	    "keyColor": "39"
+	},
+        {
+            "key": "{#white}├─",
+            "type": "de",
+            "keyColor": "39"
+        },
+	{
+            "key": "├─{#green}",
+            "type": "wm",
+            "keyColor": "39"
+        },
+	{
+            "key": "├─{#green}󰉼",
+            "type": "theme",
+            "keyColor": "39"
+        },
+	{
+	    "key": "├─{#green}󰉻",
+	    "type": "terminalfont",
+            "keyColor": "39"
+	},
+	{  
+            "key": "├─{#green}",
+            "type": "terminal",
+            "keyColor": "39"
+        },
+	{
+            "type": "custom",
+            "format": "├─{#yellow}SYSTEM{#white}─────────────────────────────────────────────┤",
+            "keyColor": "39"
+        },
+	{
+	    "type": "board",
+	    "key": "├─{#yellow}󰌢",
+            "keyColor": "39"
+	},
+	{
+	    "key": "├─{#yellow}󰍛",
+	    "type": "cpu",
+            "keyColor": "39"
+	},
+        {  
+            "key": "├─{#yellow}󰧨",
+            "type": "gpu",
+	    "keyColor": "39"
+        },
+        {  
+            "key": "├─{#yellow}󰑭",
+            "type": "memory",
+            "keyColor": "39"
+        },
+	{
+	    "key": "├─{#yellow}󰅐",
+	    "type": "uptime",
+            "keyColor": "39",
+	},
+	{
+	    "type": "custom",
+	    "format": "├─{#red}SOUND{#white}──────────────────────────────────────────────┤",
+            "keyColor": "39"
+	},
+	{
+	    "key": "{#white}├─{#red}",
+	    "type": "sound",
+	    "format": "{platform-api}"
+	},
+        {
+            "type": "custom",
+            "format": "└────────────────────────────────────────────────────┘",
+            "outputColor": "39"
+        }   
+    ]
+}
