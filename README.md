@@ -14,7 +14,7 @@
 
 ### Installation guide
 
-Install fastfetch:
+Install fastfetch: (The following table shows base distros, the cmd works for their forks distros)
 | Distribution | Terminal Command |
 | ------------ | ---------------- |
 | Arch         | sudo pacman -Sy fastfetch |
