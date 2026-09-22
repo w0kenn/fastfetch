@@ -17,8 +17,9 @@
 Install fastfetch:
 | Distribution | Terminal Command |
 | ------------ | ---------------- |
-| Arch         | sudo pacman -S fastfetch |
-
+| Arch         | sudo pacman -Sy fastfetch |
+| Debian / Ubuntu | sudo apt install fastfetch |
+| Fedora | sudo dnf install fastfetch |
 Clone the repository into `~/.local/share`:
 ```
 git clone https://github.com/w0kenn/fastfetch ~/.config/fastfetch
