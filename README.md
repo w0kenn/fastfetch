@@ -23,14 +23,16 @@
 | Fedora | sudo dnf install fastfetch |
 
 **2. Install a Nerd Font: This config uses Nerd Font icons. Without one you'll see empty boxes.**
+
+- Create a `fonts` directory into `~/.local/share`: 
+
 ```
 mkdir -p ~/.local/share/fonts
-curl -fsSL https://github.com/ryanoasis/nerd-fonts/releases/latest/download/JetBrainsMono.zip \
-  -o /tmp/JetBrainsMono.zip
-unzip -o /tmp/JetBrainsMono.zip -d ~/.local/share/fonts/
-rm /tmp/JetBrainsMono.zip
-fc-cache -fv
+
 ```
+- visit the [Nerd Font](https://www.nerdfonts.com/font-downloads) website and download the one you like the most, unzip it and copy every `.ttf` and `.otf` inside the `~/.local/share/fonts` dir we did before.
+
+> The screenshot font is "Hack Nerd Font".
 
 Clone the repository into `~/.local/share`:
 ``` bash
