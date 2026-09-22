@@ -14,12 +14,15 @@
 
 ### Installation guide
 
-Install fastfetch: (The following table shows base distros, the cmd works for their forks distros)
+1. Install fastfetch: (The following table shows base distros, the cmd works for their fork distros too)
 | Distribution | Terminal Command |
 | ------------ | ---------------- |
 | Arch         | sudo pacman -Sy fastfetch |
 | Debian / Ubuntu | sudo apt install fastfetch |
 | Fedora | sudo dnf install fastfetch |
+
+2. Install a Nerd Font:
+This config uses Nerd Font icons. Without one you'll see empty boxes.
 
 Clone the repository into `~/.local/share`:
 ```
