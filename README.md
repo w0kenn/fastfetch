@@ -14,7 +14,7 @@
 
 ### Installation guide
 
-1. Install fastfetch: (The following table shows base distros, the cmd works for their fork distros too)
+> 1. Install fastfetch: (The following table shows base distros, the cmd works for their fork distros too)
 
 | Distribution | Terminal Command |
 | ------------ | ---------------- |
