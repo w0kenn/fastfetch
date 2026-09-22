@@ -6,7 +6,7 @@
 ![Example image](exampleimage.jpg)
 
 ## Installation guide
-==This is not a standalone you need to install [Fastfetch](https://github.com/fastfetch-cli/fastfetch) first, and if you dont have a GPU based terminal emulator you will not be able to see the png logo, i recommend you [Kitty](https://sw.kovidgoyal.net/kitty/)==
+>This is not a standalone you need to install [Fastfetch](https://github.com/fastfetch-cli/fastfetch) first, and if you dont have a GPU based terminal emulator you will not be able to see the png logo, i recommend you [Kitty](https://sw.kovidgoyal.net/kitty/)
 
 Clone the repository into '~/.local/share'
 ```
