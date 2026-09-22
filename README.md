@@ -24,21 +24,26 @@
 
 **2. Install a Nerd Font: This config uses Nerd Font icons. Without one you'll see empty boxes.**
 
+> The screenshot font is "Hack Nerd Font".
+
 - Create a `fonts` directory into `~/.local/share`: 
 
 ```
 mkdir -p ~/.local/share/fonts
 
 ```
-- visit the [Nerd Font](https://www.nerdfonts.com/font-downloads) website and download the one you like the most, unzip it and copy every `.ttf` and `.otf` inside the `~/.local/share/fonts` dir we did before.
+- Visit the [Nerd Font](https://www.nerdfonts.com/font-downloads) website and download the one you like the most, unzip it and copy every `.ttf` and `.otf` inside the `~/.local/share/fonts` directory you made.
+- Run:
 
-> The screenshot font is "Hack Nerd Font".
+```
+fc-cache -fv
+```
 
-Clone the repository into `~/.local/share`:
-``` bash
+**3. Clone the repository into `~/.config/fastfetch`:**
+```
 git clone https://github.com/w0kenn/fastfetch ~/.config/fastfetch
 ```
 Then run it with:
-``` bash
+```
 fastfetch
 ```
