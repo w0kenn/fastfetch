@@ -6,9 +6,13 @@
 
 ![Example image](exampleimage.png)
 
-### Installation guide
->This is not a standalone you need to install [Fastfetch](https://github.com/fastfetch-cli/fastfetch) first and a [Nerd Font](https://www.nerdfonts.com/font-downloads) of your choice (the font i'm using in the screenshot is "Hack Nerd Font", if you don't have a GPU based terminal emulator you will not be able to see the .png logos, i recommend you to install [Kitty](https://sw.kovidgoyal.net/kitty/).
+### Requirements
+>This is not a standalone you need to install the following
+- [Fastfetch](https://github.com/fastfetch-cli/fastfetch)
+- [Nerd Font](https://www.nerdfonts.com/font-downloads) of your choice (the font i'm using in the screenshot is "Hack Nerd Font".
+- [Kitty](https://sw.kovidgoyal.net/kitty/) if you don't have a GPU based Terminal emulator, you will not be able to see the .png logos.
 
+### Installation guide
 Clone the repository into `~/.local/share`:
 ```
 git clone https://github.com/w0kenn/fastfetch ~/.config/fastfetch   
