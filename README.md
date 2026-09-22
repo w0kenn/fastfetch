@@ -10,11 +10,11 @@
 >This is not a standalone, for it to work properly you'll need to install:
 - [Fastfetch](https://github.com/fastfetch-cli/fastfetch)
 - [Kitty](https://sw.kovidgoyal.net/kitty/) (if you don't have a GPU based Terminal emulator, you will not be able to see the .png logos).
-- [Nerd Font](https://www.nerdfonts.com/font-downloads) (without this the icons won't show) Recommendation: JetBrainsMono Nerd Font, Meslo Nerd Font or Hack Nerd Font.
+- [Nerd Font](https://www.nerdfonts.com/font-downloads) (without this the icons won't show).
 
 ### Installation guide
 
-> 1. Install fastfetch: (The following table shows base distros, the cmd works for their fork distros too)
+**1. Install Fastfetch: The following table shows base distros, the cmd works for their fork distros too.**
 
 | Distribution | Terminal Command |
 | ------------ | ---------------- |
@@ -22,9 +22,8 @@
 | Debian / Ubuntu | sudo apt install fastfetch |
 | Fedora | sudo dnf install fastfetch |
 
-2. Install a Nerd Font:
-
-This config uses Nerd Font icons. Without one you'll see empty boxes.
+**2. Install a Nerd Font: This config uses Nerd Font icons. Without one you'll see empty boxes.**
+> Recommendation: JetBrainsMono Nerd Font, Meslo Nerd Font or Hack Nerd Font.
 
 
 
