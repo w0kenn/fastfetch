@@ -7,8 +7,8 @@
 ![Example image](exampleimage.png)
 
 ### Requirements
->This is not a standalone you need to install the following
-- [Fastfetch](https://github.com/fastfetch-cli/fastfetch)
+>This is not a standalone, for it to work properly you'll need to install:
+- [Fastfetch](https://github.com/fastfetch-cli/fastfetch) 
 - [Nerd Font](https://www.nerdfonts.com/font-downloads) of your choice (the font i'm using in the screenshot is "Hack Nerd Font".
 - [Kitty](https://sw.kovidgoyal.net/kitty/) if you don't have a GPU based Terminal emulator, you will not be able to see the .png logos.
 
