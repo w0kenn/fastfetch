@@ -1,4 +1,4 @@
-# w0keN Fastfetch
+# w0keN's Fastfetch
 
 ### Welcome to my fastfetch preset repository
 
