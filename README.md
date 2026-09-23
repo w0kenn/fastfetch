@@ -53,6 +53,7 @@ fastfetch --config main
 ### How to change the PNG logo:
 
 - Modify this section of the `~/.config/fastfetch/config.jsonc` file.
+
 [pnglogochange](screenshots/logofilename.png)
 
 - Replace it with the file name of the image you want to use.
