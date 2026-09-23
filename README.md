@@ -9,7 +9,7 @@
 ### Requirements
 >This is not a standalone, for it to work properly you'll need to install:
 - [Fastfetch](https://github.com/fastfetch-cli/fastfetch)
-- [Kitty](https://sw.kovidgoyal.net/kitty/) (if you don't have a GPU based Terminal emulator, you will not be able to see the .png logos).
+- [Kitty](https://sw.kovidgoyal.net/kitty/)
 - [Nerd Fonts](https://www.nerdfonts.com/font-downloads).
 
 ### Installation guide
@@ -32,7 +32,7 @@
 mkdir -p ~/.local/share/fonts
 
 ```
-- Visit the [Nerd Fonts](https://www.nerdfonts.com/font-downloads) website and download the one you like the most, unzip it and copy every `.ttf` and `.otf` inside the `~/.local/share/fonts` directory you made.
+- Visit [Nerd Fonts](https://www.nerdfonts.com/font-downloads) website and download the one you like the most, unzip it and copy every `.ttf` and `.otf` inside the `~/.local/share/fonts` directory you made.
 - Run:
 
 ```
