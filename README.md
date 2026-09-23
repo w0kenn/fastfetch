@@ -4,7 +4,7 @@
 
 [Fastfetch](https://github.com/fastfetch-cli/fastfetch) is a tool for fetching system information and displaying it in a visually appealing way. This repo contains my personal config made for [Kitty](https://sw.kovidgoyal.net/kitty/) which is a GPU based terminal emulator, that means this terminal emulator is fast and capable to show emojis and images, so feel free to use it, copy things and modify it to make it YOURS.
 
-![Example image](screenshots/example-image.png)
+![Example image](screenshots/exampleimage.png)
 ---
 ### Requirements
 >This is not a standalone, for it to work properly you'll need to install:
@@ -53,7 +53,7 @@ fastfetch --config main
 ### How to change the PNG logo:
 
 - Modify this section of the `~/.config/fastfetch/config.jsonc` file.
-[pnglogochange](screenshots/logo-file-name.png)
+[pnglogochange](screenshots/logofilename.png)
 
 - Replace it with the file name of the image you want to use.
   ```
