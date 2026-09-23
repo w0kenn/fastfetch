@@ -45,7 +45,7 @@ git clone https://github.com/w0kenn/fastfetch ~/.local/share/fastfetch
 ```
 - Now apply the preset you like the most: (for now there is only one, but in the future i'll keep adding variety)
 
-![Main Config](screenshots/mainconf.png)
+![Main Config](screenshots/main.png)
 ```
 cp ~/.local/share/fastfetch/presets/main.jsonc ~/.config/fastfetch/config.jsonc
 ```
