@@ -43,7 +43,21 @@ fc-cache -fv
 ```
 git clone https://github.com/w0kenn/fastfetch ~/.local/share/fastfetch   
 ```
-Then run the theme you like the most: (for now there is only one, but in the future i will keep adding variety)
+- Then run the theme you like the most: (for now there is only one, but in the future i will keep adding variety)
 ```
 fastfetch --config main   
 ```
+
+---
+
+### How to change the PNG logo:
+
+- Modify this section of the `~/.config/fastfetch/config.jsonc` file.
+[pnglogochange](screenshots/logo-file-name.png)
+
+- Replace it with the file name of the image you want to use.
+  ```
+  tsubasa.png
+  ```
+
+- To add custom images you need to put them inside `~/.local/share/fastfetch/logo` folder. (Recommended size: 1080x1440 or equivalent 3:4 aspect. I recommend you also name the image without spaces, or spacing with '-', Example: custom-image.png , also use lower case to keep it easy and avoid errors.
