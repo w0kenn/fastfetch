@@ -43,9 +43,9 @@ fc-cache -fv
 ```
 git clone https://github.com/w0kenn/fastfetch ~/.local/share/fastfetch   
 ```
-- Then run the theme you like the most: (for now there is only one, but in the future i will keep adding variety)
+- Now copy the preset you like the most to its final directory: (for now there is only one, but in the future i'll keep adding variety)
 ```
-fastfetch --config main   
+cp ~/.local/share/fastfetch/main.jsonc ~/.config/fastfetch/config.jsonc   
 ```
 
 ---
