@@ -60,4 +60,4 @@ fastfetch --config main
 
   Examples: `tsubasa.png` `aisaka.png` `archlinux.png`
 
->To add custom images you need to put them inside `~/.local/share/fastfetch/logo` folder. (Recommended size: 1080x1440 or equivalent 3:4 aspect. I recommend you also name the image without spaces, or spacing with '-', Example: custom-image.png , also use lower case to keep it easy and avoid errors.
+>To add custom images you need to put them inside `~/.local/share/fastfetch/logo` folder. (Recommended size: 1080x1440 or equivalent 3:4 aspect. I recommend you also name the image without spaces, or spacing with `-`, Example: custom-image.png , also use lower case to keep it easy and avoid errors.
