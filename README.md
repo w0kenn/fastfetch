@@ -59,7 +59,8 @@ cp ~/.local/share/fastfetch/presets/main.jsonc ~/.config/fastfetch/config.jsonc
 ![Logo File Name](screenshots/logofilename.png)
 
 - Replace it with the file name of the image you want to use.
+>You can find them inside `~/.local/share/fastfetch/logo`.
 
-  Examples: `tsubasa.png` `aisaka.png` `archlinux.png`
+Actual PNGs: `archlinux.png` `arch.png` `tsubasa.png` `aisaka.png` `loli.png` `2b1.png` `2b2.png`
 
 >To add custom images you need to put them inside `~/.local/share/fastfetch/logo` folder. (Recommended size: 1080x1440 or equivalent 3:4 aspect. I recommend you also name the image without spaces, or spacing with `-`, Example: custom-image.png , also use lower case to keep it easy and avoid errors.
