@@ -54,7 +54,7 @@ fastfetch --config main
 
 - Modify this section of the `~/.config/fastfetch/config.jsonc` file.
 
-[pnglogochange](screenshots/logofilename.png)
+![Logo File Name](screenshots/logofilename.png)
 
 - Replace it with the file name of the image you want to use.
   ```
