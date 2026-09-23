@@ -45,7 +45,7 @@ git clone https://github.com/w0kenn/fastfetch ~/.local/share/fastfetch
 ```
 - Now copy the preset you like the most to its final directory: (for now there is only one, but in the future i'll keep adding variety)
 ```
-cp ~/.local/share/fastfetch/preset/main.jsonc ~/.config/fastfetch/config.jsonc
+cp ~/.local/share/fastfetch/presets/main.jsonc ~/.config/fastfetch/config.jsonc
 ```
 
 ---
