@@ -41,7 +41,11 @@ fc-cache -fv
 
 **3. Clone the repository into `~/.local/share`:**
 ```
-git clone https://github.com/w0kenn/fastfetch ~/.local/share/fastfetch   
+git clone https://github.com/w0kenn/fastfetch ~/.local/share/fastfetch 
+```
+- Create the active preset directory:
+```
+mkdir -p ~/.config/fastfetch
 ```
 - Now apply the preset you like the most: (for now there is only one, but in the future i'll keep adding variety)
 
