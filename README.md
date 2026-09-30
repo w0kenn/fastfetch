@@ -65,8 +65,7 @@ fastfetch
 
 1. Place your PNG inside:
 `~/.local/share/fastfetch/logo`
->Use a roughly **3:4 aspect ratio**
->Recommended size: **1080x1440**
+>Use a roughly **3:4 aspect ratio**. Recommended size: **1080x1440**
 
 2. To change the logo, edit the config.jsonc file `~/.config/fastfetch/config.jsonc`
 
