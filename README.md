@@ -62,13 +62,16 @@ fastfetch
 ```
 ---
 
-### How to change the PNG logo:
+### Add your own logo:
 
-- Modify this section of the `~/.config/fastfetch/config.jsonc` file keeping the " at the end.
-
+1. Place your PNG inside:
+`~/.local/share/fastfetch/logo`
+>Use a roughly **3:4 aspect ratio**
+>Recommended size: **1080x1440**
+2. To change the logo edit the config.jsonc file `~/.config/fastfetch/config.jsonc`
 ![Logo File Name](screenshots/logofilename.png)
 
-- Replace it with the file name of the image you want to use.
+- Replace the image name with the one you want to use.
 >You can find them inside `~/.local/share/fastfetch/logo`.
 
 Actual PNGs: `archlinux.png` `arch.png` `tsubasa.png` `aisaka.png` `loli.png` `2b1.png` `2b2.png`
