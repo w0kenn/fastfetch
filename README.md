@@ -1,16 +1,19 @@
 # w0keN's Fastfetch
 
 ### Welcome to my fastfetch preset repository
+A clean, customizable Fastfetch setup with Nerd Font icons and image-based logos.
 
-[Fastfetch](https://github.com/fastfetch-cli/fastfetch) is a tool for fetching system information and displaying it in a visually appealing way. This repo contains my personal config made for [Kitty](https://sw.kovidgoyal.net/kitty/) which is a GPU based terminal emulator, that means this terminal emulator is fast and capable to show emojis and images, so feel free to use it, copy things and modify it to make it YOURS.
+[Fastfetch](https://github.com/fastfetch-cli/fastfetch) is a tool for fetching system information and displaying it in a visually appealing way. This repo contains my personal config made for [Kitty](https://sw.kovidgoyal.net/kitty/) which is a GPU based terminal emulator, that means this terminal emulator is fast and capable to show emojis and images, so feel free to use it, copy things and modify it to make it your OWN.
 
 ![Example image](screenshots/exampleimage.png)
 ---
 ### Requirements
 >This is not a standalone, for it to work properly you'll need to install:
 - [Fastfetch](https://github.com/fastfetch-cli/fastfetch)
-- [Kitty](https://sw.kovidgoyal.net/kitty/)
 - [Nerd Fonts](https://www.nerdfonts.com/font-downloads).
+- [Kitty](https://sw.kovidgoyal.net/kitty/) or another terminal with compatible image support
+>The screenshots were made using Hack Nerd Font and Kitty.
+
 
 ### Installation guide
 
@@ -18,7 +21,7 @@
 
 | Distribution | Terminal Command |
 | ------------ | ---------------- |
-| Arch         | sudo pacman -Sy fastfetch |
+| Arch         | sudo pacman -S fastfetch |
 | Debian / Ubuntu | sudo apt install fastfetch |
 | Fedora | sudo dnf install fastfetch |
 
@@ -33,7 +36,7 @@ mkdir -p ~/.local/share/fonts
 
 ```
 - Visit [Nerd Fonts](https://www.nerdfonts.com/font-downloads) website and download the one you like the most, unzip it and copy every `.ttf` and `.otf` inside the `~/.local/share/fonts` directory you made.
-- Run:
+- Then rebuild the font cache:
 
 ```
 fc-cache -fv
@@ -53,7 +56,10 @@ mkdir -p ~/.config/fastfetch
 ```
 cp ~/.local/share/fastfetch/presets/main.jsonc ~/.config/fastfetch/config.jsonc
 ```
-
+**4. Run Fastfetch**
+```
+fastfetch
+```
 ---
 
 ### How to change the PNG logo:
