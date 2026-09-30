@@ -1,7 +1,6 @@
 # w0keN's Fastfetch
 
 ### Welcome to my fastfetch preset repository
-A clean, customizable Fastfetch setup with Nerd Font icons and image-based logos.
 
 [Fastfetch](https://github.com/fastfetch-cli/fastfetch) is a tool for fetching system information and displaying it in a visually appealing way. This repo contains my personal config made for [Kitty](https://sw.kovidgoyal.net/kitty/) which is a GPU based terminal emulator, that means this terminal emulator is fast and capable to show emojis and images, so feel free to use it, copy things and modify it to make it your OWN.
 
@@ -68,7 +67,9 @@ fastfetch
 `~/.local/share/fastfetch/logo`
 >Use a roughly **3:4 aspect ratio**
 >Recommended size: **1080x1440**
+
 2. To change the logo edit the config.jsonc file `~/.config/fastfetch/config.jsonc`
+
 ![Logo File Name](screenshots/logofilename.png)
 
 - Replace the image name with the one you want to use.
