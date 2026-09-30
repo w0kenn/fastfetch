@@ -2,12 +2,12 @@
 
 ### Welcome to my fastfetch preset repository
 
-[Fastfetch](https://github.com/fastfetch-cli/fastfetch) is a tool for fetching system information and displaying it in a visually appealing way. This repo contains my personal config made for [Kitty](https://sw.kovidgoyal.net/kitty/) which is a GPU based terminal emulator, that means this terminal emulator is fast and capable to show emojis and images, so feel free to use it, copy things and modify it to make it your OWN.
+[Fastfetch](https://github.com/fastfetch-cli/fastfetch) is a tool for fetching system information and displaying it in a visually appealing way. This repo contains my personal config made for [Kitty](https://sw.kovidgoyal.net/kitty/) which is a GPU-based terminal emulator. This makes it fast and capable of displaying emojis and images. So feel free to use it, copy things and modify it to make it your OWN.
 
 ![Example image](screenshots/exampleimage.png)
 ---
 ### Requirements
->This is not a standalone, for it to work properly you'll need to install:
+>This is not standalone. For it to work properly, you'll need to install:
 - [Fastfetch](https://github.com/fastfetch-cli/fastfetch)
 - [Nerd Fonts](https://www.nerdfonts.com/font-downloads).
 - [Kitty](https://sw.kovidgoyal.net/kitty/) or another terminal with compatible image support
@@ -41,7 +41,7 @@ mkdir -p ~/.local/share/fonts
 fc-cache -fv
 ```
 
-**3. Clone the repository into `~/.local/share`:**
+**3. Clone the repository inside `~/.local/share`:**
 ```
 git clone https://github.com/w0kenn/fastfetch ~/.local/share/fastfetch 
 ```
@@ -49,7 +49,7 @@ git clone https://github.com/w0kenn/fastfetch ~/.local/share/fastfetch
 ```
 mkdir -p ~/.config/fastfetch
 ```
-- Now apply the preset you like the most: (for now there is only one, but in the future i'll keep adding variety)
+- Now apply the preset you like. (There is currently only one, but I'll add more in the future.)
 
 ![Main Config](screenshots/main.png)
 ```
@@ -68,13 +68,11 @@ fastfetch
 >Use a roughly **3:4 aspect ratio**
 >Recommended size: **1080x1440**
 
-2. To change the logo edit the config.jsonc file `~/.config/fastfetch/config.jsonc`
+2. To change the logo, edit the config.jsonc file `~/.config/fastfetch/config.jsonc`
 
 ![Logo File Name](screenshots/logofilename.png)
 
-- Replace the image name with the one you want to use.
->You can find them inside `~/.local/share/fastfetch/logo`.
+- Then replace the image name with the one you want to use.
 >I recommend naming the image without spaces, or using - instead, for example custom-image.png. Also use lowercase to keep filenames simple and avoid errors.
-
 
 Actual PNGs: `archlinux.png` `arch.png` `tsubasa.png` `aisaka.png` `loli.png` `2b1.png` `2b2.png`
