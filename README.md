@@ -41,7 +41,7 @@ mkdir -p ~/.local/share/fonts
 fc-cache -fv
 ```
 
-### 3. Clone the repository inside `~/.local/share`:
+**3. Clone the repository inside `~/.local/share`:**
 ```
 git clone https://github.com/w0kenn/fastfetch ~/.local/share/fastfetch 
 ```
@@ -51,19 +51,19 @@ mkdir -p ~/.config/fastfetch
 ```
 - Now apply the preset you like.
 
-### Main
+**Main**
 ![Main Config](screenshots/main.png)
 ```
 cp ~/.local/share/fastfetch/presets/main.jsonc ~/.config/fastfetch/config.jsonc
 ```
 
-### Minimal
+**Minimal**
 ![Minimal Config](screenshots/minimal.png)
 ```
 cp ~/.local/share/fastfetch/presets/minimal.jsonc ~/.config/fastfetch/config.jsonc
 ```
 
-### 4. Run Fastfetch
+**4. Run Fastfetch**
 ```
 fastfetch
 ```
