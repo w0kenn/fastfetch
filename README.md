@@ -51,12 +51,14 @@ mkdir -p ~/.config/fastfetch
 ```
 - Now apply the preset you like.
 
+***Main***
 ![Main Config](screenshots/main.png)
 ```
 cp ~/.local/share/fastfetch/presets/main.jsonc ~/.config/fastfetch/config.jsonc
 ```
 
-![Minimal Config](screenshots/minimal)
+***Minimal***
+![Minimal Config](screenshots/minimal.png)
 ```
 cp ~/.local/share/fastfetch/presets/minimal.jsonc ~/.config/fastfetch/config.jsonc
 ```
