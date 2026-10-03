@@ -49,12 +49,18 @@ git clone https://github.com/w0kenn/fastfetch ~/.local/share/fastfetch
 ```
 mkdir -p ~/.config/fastfetch
 ```
-- Now apply the preset you like. (There is currently only one, but I'll add more in the future.)
+- Now apply the preset you like.
 
 ![Main Config](screenshots/main.png)
 ```
 cp ~/.local/share/fastfetch/presets/main.jsonc ~/.config/fastfetch/config.jsonc
 ```
+
+![Minimal Config](screenshots/minimal)
+```
+cp ~/.local/share/fastfetch/presets/minimal.jsonc ~/.config/fastfetch/config.jsonc
+```
+
 **4. Run Fastfetch**
 ```
 fastfetch
@@ -74,4 +80,4 @@ fastfetch
 - Then replace the image name with the one you want to use.
 >I recommend naming the image without spaces, or using - instead, for example custom-image.png. Also use lowercase to keep filenames simple and avoid errors.
 
-Actual PNGs: `archlinux.png` `arch.png` `tsubasa.png` `aisaka.png` `loli.png` `2b1.png` `2b2.png`
+Actual PNGs: `archlinux.png` `arch.png` `afra.png` `tsubasa.png` `aisaka.png` `loli.png` `2b1.png` `2b2.png`
